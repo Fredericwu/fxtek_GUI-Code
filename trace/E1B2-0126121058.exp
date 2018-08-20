@@ -1,0 +1,65 @@
+Telnet to : 192.168.1.47, Time Stamp : 2017-01-26 12:10:58.461
+Connection to the Loxoll HA-AP engine has been established.
+Enter password: ********
+Password accepted!
+
+User Service Utility Key Assignments:
+
+'?': Show User Service Utility Key Assignments Menu
+'1': Show Vital Product Data
+'2': Show LUN Map
+'4': Configure Management Server Access
+'6': View/Change Interface Configuration
+'7': Start Command Line Interface mode
+'8': Disk/Fabric Performance Test
+'9': Clear SAN database
+'B': Reboot Router
+'H': Report overall system health
+'F': Reset to Factory Default
+'Q': Quit User Service Utility
+'Z': Coredump Menu
+
+HA-AP 0 > 
+Enter [exit] to return
+CLI>explore B2
+
+FC port   WWPN                WWNN                Port type
+0x020125  5000-612024-534000  5000-612024-534400  Target
+LUNS:
+  0000    195.2 GB  dg0ld0          
+  0001    293.0 GB  dg0ld1          
+  0002   2148.3 GB  dg0ld2          
+
+0x010100  2607-000155-600145  2501-000155-600145  Target
+LUNS:
+  0000    186.2 GB  22fc0001550a8d15
+  0001    279.3 GB  227100015592462e
+  0002   2048.8 GB  221700015596aae2
+  0003    186.2 GB  22f00001556660c8
+
+0x010500  2400-006022-ad0aea  2000-006022-ad0aea  Loxoll Engine
+3 ports reported
+Explore of port B2 complete!
+
+CLI>exit
+
+
+User Service Utility Key Assignments:
+
+'?': Show User Service Utility Key Assignments Menu
+'1': Show Vital Product Data
+'2': Show LUN Map
+'4': Configure Management Server Access
+'6': View/Change Interface Configuration
+'7': Start Command Line Interface mode
+'8': Disk/Fabric Performance Test
+'9': Clear SAN database
+'B': Reboot Router
+'H': Report overall system health
+'F': Reset to Factory Default
+'Q': Quit User Service Utility
+'Z': Coredump Menu
+
+HA-AP 1 > 
+Quit User Menu? (Y/N)
+Debug Session Terminated, Good Bye!

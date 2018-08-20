@@ -1,0 +1,573 @@
+Telnet to : 10.9.95.123, Time Stamp : 2017-08-24 13:49:59.178
+Connection to the Loxoll HA-AP engine has been established.
+Enter password: ********
+Password accepted!
+
+User Service Utility Key Assignments:
+
+'?': Show User Service Utility Key Assignments Menu
+'1': Show Vital Product Data
+'2': Show LUN Map
+'4': Configure Management Server Access
+'6': View/Change Interface Configuration
+'7': Start Command Line Interface mode
+'8': Disk/Fabric Performance Test
+'9': Clear SAN database
+'B': Reboot Router
+'H': Report overall system health
+'F': Reset to Factory Default
+'Q': Quit User Service Utility
+'Z': Coredump Menu
+
+HA-AP 0 > 
+Configure which interface?
+	A = Port A1
+	B = Port A2
+	C = Port B1
+	D = Port B2
+	E = Ethernet (port 1)
+	F = Ethernet (port 2)
+	M = Cycle serial port end-of-line mode
+	S = Storage Emulation
+	X = Toggle shutdown behaviour of host-only ports
+	      (shut down if no storage or engines seen)
+	<Enter> = done
+
+HA-AP 1 > 
+
+** Port A1 configuration **
+Link speed settings:
+	Current: 8Gb/s
+	Default: 8Gb/s
+WWPN settings:
+	Current: 0x2100-006022-AD0CEC
+	Default: 0x2100-006022-AD0CEC
+WWNN settings:
+	Current: 0x2000-006022-AD0CE6
+	Default: 0x2000-006022-AD0CEC
+Operating Mode:
+	Current: Point-to-point mode
+	Default: Point-to-point mode
+LUN mapping mode
+	Current: Direct mapping
+	Default: Direct mapping
+Command queue depth:
+	Current: 0 (1024 max)
+	Default: 0 (=256)
+Link error status block monitoring interval in seconds (0=off):
+	Current: 0
+	Default: 0
+Options: 
+	S = set link speed
+	P = set WWPN (port name)
+	N = set WWNN (node name)
+	L = toggle loop/point-to-point mode
+	I = set loop ID (only if in loop mode)
+	M = select mapping mode
+	Q = set command queue depth
+	F = set link error status block monitoring frequency
+	? = show current (pending) settings
+	D = restore defaults
+	<Esc> = restore entry settings (discard changes)
+	<Enter> = record changes (if any) and exit or reboot
+
+HA-AP 2 > 
+Configure which interface?
+	A = Port A1
+	B = Port A2
+	C = Port B1
+	D = Port B2
+	E = Ethernet (port 1)
+	F = Ethernet (port 2)
+	M = Cycle serial port end-of-line mode
+	S = Storage Emulation
+	X = Toggle shutdown behaviour of host-only ports
+	      (shut down if no storage or engines seen)
+	<Enter> = done
+
+HA-AP 3 > 
+
+** Port A2 configuration **
+Link speed settings:
+	Current: 8Gb/s
+	Default: 8Gb/s
+WWPN settings:
+	Current: 0x2200-006022-AD0CEC
+	Default: 0x2200-006022-AD0CEC
+WWNN settings:
+	Current: 0x2000-006022-AD0CE6
+	Default: 0x2000-006022-AD0CEC
+Operating Mode:
+	Current: Point-to-point mode
+	Default: Point-to-point mode
+LUN mapping mode
+	Current: Direct mapping
+	Default: Direct mapping
+Command queue depth:
+	Current: 0 (1024 max)
+	Default: 0 (=256)
+Link error status block monitoring interval in seconds (0=off):
+	Current: 0
+	Default: 0
+Options: 
+	S = set link speed
+	P = set WWPN (port name)
+	N = set WWNN (node name)
+	L = toggle loop/point-to-point mode
+	I = set loop ID (only if in loop mode)
+	M = select mapping mode
+	Q = set command queue depth
+	F = set link error status block monitoring frequency
+	? = show current (pending) settings
+	D = restore defaults
+	<Esc> = restore entry settings (discard changes)
+	<Enter> = record changes (if any) and exit or reboot
+
+HA-AP 4 > 
+Configure which interface?
+	A = Port A1
+	B = Port A2
+	C = Port B1
+	D = Port B2
+	E = Ethernet (port 1)
+	F = Ethernet (port 2)
+	M = Cycle serial port end-of-line mode
+	S = Storage Emulation
+	X = Toggle shutdown behaviour of host-only ports
+	      (shut down if no storage or engines seen)
+	<Enter> = done
+
+HA-AP 5 > 
+
+** Port B1 configuration **
+Link speed settings:
+	Current: 8Gb/s
+	Default: 8Gb/s
+WWPN settings:
+	Current: 0x2300-006022-AD0CEC
+	Default: 0x2300-006022-AD0CEC
+WWNN settings:
+	Current: 0x2000-006022-AD0CEC
+	Default: 0x2000-006022-AD0CEC
+Operating Mode:
+	Current: Point-to-point mode
+	Default: Point-to-point mode
+LUN mapping mode
+	Current: Direct mapping
+	Default: Direct mapping
+Command queue depth:
+	Current: 0 (1024 max)
+	Default: 0 (=256)
+Link error status block monitoring interval in seconds (0=off):
+	Current: 0
+	Default: 0
+Options: 
+	S = set link speed
+	P = set WWPN (port name)
+	N = set WWNN (node name)
+	L = toggle loop/point-to-point mode
+	I = set loop ID (only if in loop mode)
+	M = select mapping mode
+	Q = set command queue depth
+	F = set link error status block monitoring frequency
+	? = show current (pending) settings
+	D = restore defaults
+	<Esc> = restore entry settings (discard changes)
+	<Enter> = record changes (if any) and exit or reboot
+
+HA-AP 6 > 
+Configure which interface?
+	A = Port A1
+	B = Port A2
+	C = Port B1
+	D = Port B2
+	E = Ethernet (port 1)
+	F = Ethernet (port 2)
+	M = Cycle serial port end-of-line mode
+	S = Storage Emulation
+	X = Toggle shutdown behaviour of host-only ports
+	      (shut down if no storage or engines seen)
+	<Enter> = done
+
+HA-AP 7 > 
+
+** Port B2 configuration **
+Link speed settings:
+	Current: 8Gb/s
+	Default: 8Gb/s
+WWPN settings:
+	Current: 0x2400-006022-AD0CEC
+	Default: 0x2400-006022-AD0CEC
+WWNN settings:
+	Current: 0x2000-006022-AD0CEC
+	Default: 0x2000-006022-AD0CEC
+Operating Mode:
+	Current: Point-to-point mode
+	Default: Point-to-point mode
+LUN mapping mode
+	Current: Direct mapping
+	Default: Direct mapping
+Command queue depth:
+	Current: 0 (1024 max)
+	Default: 0 (=256)
+Link error status block monitoring interval in seconds (0=off):
+	Current: 0
+	Default: 0
+Options: 
+	S = set link speed
+	P = set WWPN (port name)
+	N = set WWNN (node name)
+	L = toggle loop/point-to-point mode
+	I = set loop ID (only if in loop mode)
+	M = select mapping mode
+	Q = set command queue depth
+	F = set link error status block monitoring frequency
+	? = show current (pending) settings
+	D = restore defaults
+	<Esc> = restore entry settings (discard changes)
+	<Enter> = record changes (if any) and exit or reboot
+
+HA-AP 8 > 
+Configure which interface?
+	A = Port A1
+	B = Port A2
+	C = Port B1
+	D = Port B2
+	E = Ethernet (port 1)
+	F = Ethernet (port 2)
+	M = Cycle serial port end-of-line mode
+	S = Storage Emulation
+	X = Toggle shutdown behaviour of host-only ports
+	      (shut down if no storage or engines seen)
+	<Enter> = done
+
+HA-AP 9 > 
+
+** Storage Emulation Options **
+Current inquiry option is <Loxoll>
+Entry inquiry option was <Loxoll>
+Storage emulation options:
+	D = Loxoll (default)
+	S = SDD
+	? = show settings as changed
+	<Esc> = restore entry settings (discard changes)
+	<Enter> = accept and exit
+
+HA-AP 10 > 
+Configure which interface?
+	A = Port A1
+	B = Port A2
+	C = Port B1
+	D = Port B2
+	E = Ethernet (port 1)
+	F = Ethernet (port 2)
+	M = Cycle serial port end-of-line mode
+	S = Storage Emulation
+	X = Toggle shutdown behaviour of host-only ports
+	      (shut down if no storage or engines seen)
+	<Enter> = done
+
+HA-AP 11 > 
+HA-AP 12 > 
+User Service Utility Key Assignments:
+
+'?': Show User Service Utility Key Assignments Menu
+'1': Show Vital Product Data
+'2': Show LUN Map
+'4': Configure Management Server Access
+'6': View/Change Interface Configuration
+'7': Start Command Line Interface mode
+'8': Disk/Fabric Performance Test
+'9': Clear SAN database
+'B': Reboot Router
+'H': Report overall system health
+'F': Reset to Factory Default
+'Q': Quit User Service Utility
+'Z': Coredump Menu
+
+HA-AP 13 > 
+Enter [exit] to return
+CLI>conmgr engine status
+
+  3 Engines
+===========
+ tnum port wwpn               status
+    1 B1   2300-006022-ad0ce6 A
+      B2   2400-006022-ad0ce6 A
+    2 B1   2300-006022-ad0ce8 A
+      B2   2400-006022-ad0ce8 A
+    3 B1   2300-006022-ad0cea A
+      B2   2400-006022-ad0cea A
+
+CLI>conmgr drive status
+
+  2 Drives
+==========
+ tnum port wwpn               lun               status                  RE-stat
+    0 B1   2070-00c0ff-275509 0040-000000000000 A currently unknown     A
+      B2   2270-00c0ff-275509 0040-000000000000 A currently unknown     
+      B1   2470-00c0ff-275509 0040-000000000000 A currently unknown     
+      B2   2670-00c0ff-275509 0040-000000000000 A currently unknown     
+    1 B1   2070-00c0ff-27559f 0040-000000000000 A currently unknown     A
+      B2   2270-00c0ff-27559f 0040-000000000000 A currently unknown     
+      B1   2470-00c0ff-27559f 0040-000000000000 A currently unknown     
+      B2   2670-00c0ff-27559f 0040-000000000000 A currently unknown     
+
+CLI>conmgr initiator status
+
+  0 Initiators
+==============
+
+CLI>engine
+
+   Engine  Status  Serial #  IP Addresses (1/2)                Firmware
+   --------------------------------------------------------------------
+   1  (M)  Online     ... further info not available
+   2       Online     ... further info not available
+   3       Online     ... further info not available
+>> 4       Online  11341036  10.9.95.123/20.20.20.1            15.9.7.7 OR
+
+CLI>drvstate
+
+
+Resource drives:
+    Target #        Capacity (LBA)  I/O cnt  State
+    --------        --------------  -------  -----
+           0            8595701760        0  Operational
+           1            8595701760        0  Operational
+
+Complex drives:
+    Target #   Subtype   I/O cnt  State
+    --------  ---------  -------  -----
+      0x8201   Mirror          0  Operational
+
+
+CLI>license status
+
+Installed licenses:
+  8 Gb FC Port Speed
+  Firmware Downgrade
+  I/O Generator Tool
+  Fake Drives
+  2-way Mirroring
+  32 HBA Support
+  16 Mirror Support
+  16 Lifetime Mirror WWNNs
+
+Mask words: 6c, 80, 40008, 0
+
+Loxoll bundle
+
+CLI>conmgr
+
+  2 Drives
+==========
+ tnum type port wwpn               lun                rd  wr
+    0 A-P  B1   2070-00c0ff-275509 0040-000000000000   1   1
+           B2   2270-00c0ff-275509 0040-000000000000   1   1
+           B1   2470-00c0ff-275509 0040-000000000000   1   1
+           B2   2670-00c0ff-275509 0040-000000000000   1   1
+    1 A-P  B1   2070-00c0ff-27559f 0040-000000000000   1   1
+           B2   2270-00c0ff-27559f 0040-000000000000   1   1
+           B1   2470-00c0ff-27559f 0040-000000000000   1   1
+           B2   2670-00c0ff-27559f 0040-000000000000   1   1
+
+  3 Engines        our engine number:     4
+===========
+ tnum port wwpn
+    1 B1   2300-006022-ad0ce6
+      B2   2400-006022-ad0ce6
+    2 B1   2300-006022-ad0ce8
+      B2   2400-006022-ad0ce8
+    3 B1   2300-006022-ad0cea
+      B2   2400-006022-ad0cea
+
+  0 Initiators
+==============
+
+CLI>conmgr read
+
+  2 Drives
+==========
+ tnum type port wwpn               lun                rd  wr
+    0 A-P  B1   2070-00c0ff-275509 0040-000000000000   1   1
+           B2   2270-00c0ff-275509 0040-000000000000   1   1
+           B1   2470-00c0ff-275509 0040-000000000000   1   1
+           B2   2670-00c0ff-275509 0040-000000000000   1   1
+    1 A-P  B1   2070-00c0ff-27559f 0040-000000000000   1   1
+           B2   2270-00c0ff-27559f 0040-000000000000   1   1
+           B1   2470-00c0ff-27559f 0040-000000000000   1   1
+           B2   2670-00c0ff-27559f 0040-000000000000   1   1
+
+  3 Engines        our engine number:     4
+===========
+ tnum port wwpn
+    1 B1   2300-006022-ad0ce6
+      B2   2400-006022-ad0ce6
+    2 B1   2300-006022-ad0ce8
+      B2   2400-006022-ad0ce8
+    3 B1   2300-006022-ad0cea
+      B2   2400-006022-ad0cea
+
+  0 Initiators
+==============
+
+CLI>conmgr mode
+
+auto-configuration is based on inquiry page 0x83 serial number
+
+CLI>sfp a1
+
+Port A1 SFP information:
+  Identifier         : SFP transceiver
+  Connector          : LC
+  Nominal Bit Rate   : 8500 Mb/s
+  Vendor Name        : CISCO-FINISAR   
+  Part Number        : FTLF8528P2BCV-CS
+  Revision Level     : D   
+  Serial Number      : FNS14040LVR     
+  Date of Manufacture: 01/19 2010
+
+CLI>sfp a2
+
+Port A2 SFP information:
+  Identifier         : SFP transceiver
+  Connector          : LC
+  Nominal Bit Rate   : 8500 Mb/s
+  Vendor Name        : CISCO-FINISAR   
+  Part Number        : FTLF8528P2BCV-CS
+  Revision Level     : D   
+  Serial Number      : FNS140408Y2     
+  Date of Manufacture: 01/18 2010
+
+CLI>sfp b1
+
+Port B1 SFP information:
+  Identifier         : SFP transceiver
+  Connector          : LC
+  Nominal Bit Rate   : 8500 Mb/s
+  Vendor Name        : CISCO-AVAGO     
+  Part Number        : SFBR-5780APZ-CS2
+  Revision Level     : G2.3
+  Serial Number      : AGA15118B1G     
+  Date of Manufacture: 03/21 2011
+
+CLI>sfp b2
+
+Port B2 SFP information:
+  Identifier         : SFP transceiver
+  Connector          : LC
+  Nominal Bit Rate   : 8500 Mb/s
+  Vendor Name        : CISCO-AVAGO     
+  Part Number        : SFBR-5780APZ-CS2
+  Revision Level     : G2.3
+  Serial Number      : AGA15118B5M     
+  Date of Manufacture: 03/21 2011
+
+CLI>port
+
+Port A1 enabled, link active at 8 Gb/s
+Port A2 enabled, link active at 8 Gb/s
+Port B1 enabled, link active at 8 Gb/s
+Port B2 enabled, link active at 8 Gb/s
+
+CLI>proxy
+
+No proxy drives defined
+
+No special proxy drives defined
+
+CLI>video
+
+Video Mode Off
+
+CLI>timeout
+
+Commands will timeout after 15 seconds
+  Drives will be failed due to 2 consecutive timeouts
+Commands to last mirror members will timeout after 15 seconds
+  Last members will not be failed due to timeouts
+
+
+CLI>group
+
+No HBA Groups defined
+No Drive Groups defined
+
+CLI>map
+
+Auto-application of Map 0 to all HBAs is disabled
+
+No LUN Maps defined
+
+CLI>site
+
+Site isolation protection is currently disabled
+
+CLI>rtc
+
+Friday, 8/25/2017, 02:54:20
+Periodic reading is enabled with an interval of 60 minute(s)
+Current calibration # is 60
+
+CLI>rls
+
+
+Port A1 (0) RLS log:
+	The log is empty.
+
+
+Port A2 (1) RLS log:
+	The log is empty.
+
+
+Port B1 (2) RLS log:
+	The log is empty.
+
+
+Port B2 (3) RLS log:
+	The log is empty.
+
+
+CLI>vaai
+
+VAAI support is currently disabled
+
+CLI>aca
+
+ACA support is currently enabled
+
+CLI>health
+
+Overall system health is good
+
+CLI>serial
+
+Syntax Error: incorrect number of arguments
+
+CLI>quorum
+
+Site isolation quorum client is currently disabled
+
+CLI>exit
+
+
+User Service Utility Key Assignments:
+
+'?': Show User Service Utility Key Assignments Menu
+'1': Show Vital Product Data
+'2': Show LUN Map
+'4': Configure Management Server Access
+'6': View/Change Interface Configuration
+'7': Start Command Line Interface mode
+'8': Disk/Fabric Performance Test
+'9': Clear SAN database
+'B': Reboot Router
+'H': Report overall system health
+'F': Reset to Factory Default
+'Q': Quit User Service Utility
+'Z': Coredump Menu
+
+HA-AP 14 > 
+Quit User Menu? (Y/N)
+Debug Session Terminated, Good Bye!

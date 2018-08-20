@@ -1,0 +1,174 @@
+Telnet to : 10.9.95.110, Time Stamp : 2017-08-24 13:59:30.618
+Connection to the Loxoll HA-AP engine has been established.
+Enter password: ********
+Password accepted!
+
+User Service Utility Key Assignments:
+
+'?': Show User Service Utility Key Assignments Menu
+'1': Show Vital Product Data
+'2': Show LUN Map
+'4': Configure Management Server Access
+'6': View/Change Interface Configuration
+'7': Start Command Line Interface mode
+'8': Disk/Fabric Performance Test
+'9': Clear SAN database
+'B': Reboot Router
+'H': Report overall system health
+'F': Reset to Factory Default
+'Q': Quit User Service Utility
+'Z': Coredump Menu
+
+HA-AP 0 > 
+Enter [exit] to return
+CLI>vpd
+
+
+****** Storage Mirroring Engine VPD ******
+
+Product Type : FCE8400G
+               Loxoll
+
+Firmware V15.9.7.7	HA-AP Official Release
+Revision Data : Loxoll(release), Jul 14 2017 14:18:17
+(C) 1995-2015 Loxoll, Inc. All Rights Reserved.
+Redboot(tm) version: 0.2.0.6
+
+Unique ID          : 00000060-22AD0CE6
+Unit Serial Number : 11341030
+PCB Number         : 11341030
+MAC address        : 0.60.22.AD.C.E6
+IP addresses       : 10.9.95.110/20.20.20.1
+
+Uptime             : 6d 21:50:52
+
+Alert: None
+Friday, 8/25/2017, 03:02:58
+
+Port  Node Name           Port Name
+A1    2000-006022-ad0ce6  2100-006022-ad0ce6
+A2    2000-006022-ad0ce6  2200-006022-ad0ce6
+B1    2000-006022-ad0ce6  2300-006022-ad0ce6
+B2    2000-006022-ad0ce6  2400-006022-ad0ce6
+
+CLI>mirror
+
+Mirror(hex)    state       Map         Capacity  Members
+ 33281(0x8201) Operational  -        8595701760  0 (OK )  1 (OK ) 
+
+'-' indicates not mapped to any initiator
+
+CLI>conmgr engine status
+
+  3 Engines
+===========
+ tnum port wwpn               status
+    2 B1   2300-006022-ad0ce8 A
+      B2   2400-006022-ad0ce8 A
+    3 B1   2300-006022-ad0cea A
+      B2   2400-006022-ad0cea A
+    4 B1   2300-006022-ad0cec A
+      B2   2400-006022-ad0cec A
+
+CLI>conmgr drive status
+
+  2 Drives
+==========
+ tnum port wwpn               lun               status                  RE-stat
+    0 B1   2070-00c0ff-275509 0040-000000000000 A currently unknown     A
+      B2   2270-00c0ff-275509 0040-000000000000 A currently unknown     
+      B1   2470-00c0ff-275509 0040-000000000000 A currently unknown     
+      B2   2670-00c0ff-275509 0040-000000000000 A currently unknown     
+    1 B1   2070-00c0ff-27559f 0040-000000000000 A currently unknown     A
+      B2   2270-00c0ff-27559f 0040-000000000000 A currently unknown     
+      B1   2470-00c0ff-27559f 0040-000000000000 A currently unknown     
+      B2   2670-00c0ff-27559f 0040-000000000000 A currently unknown     
+
+CLI>conmgr initiator status
+
+  0 Initiators
+==============
+
+CLI>port
+
+Port A1 enabled, link active at 8 Gb/s
+Port A2 enabled, link active at 8 Gb/s
+Port B1 enabled, link active at 8 Gb/s
+Port B2 enabled, link active at 8 Gb/s
+
+CLI>engine
+
+   Engine  Status  Serial #  IP Addresses (1/2)                Firmware
+   --------------------------------------------------------------------
+>> 1  (M)  Online  11341030  10.9.95.110/20.20.20.1            15.9.7.7 OR
+   2       Online  11341032  10.9.95.111/20.20.20.1            15.9.7.7 OR
+   3       Online  11341034  10.9.95.122/20.20.20.1            15.9.7.7 OR
+   4       Online  11341036  10.9.95.123/20.20.20.1            15.9.7.7 OR
+
+CLI>drvstate
+
+
+Resource drives:
+    Target #        Capacity (LBA)  I/O cnt  State
+    --------        --------------  -------  -----
+           0            8595701760        0  Operational
+           1            8595701760        0  Operational
+
+Complex drives:
+    Target #   Subtype   I/O cnt  State
+    --------  ---------  -------  -----
+      0x8201   Mirror          0  Operational
+
+
+CLI>rebuild
+
+No rebuilds performed on this engine
+
+
+No rebuilds in this SAN
+
+
+No degrades ready to rebuild found
+
+CLI>bpt
+
+Port A1 (0) Bad Port Table:
+	No Entries
+Port A2 (1) Bad Port Table:
+	No Entries
+Port B1 (2) Bad Port Table:
+	No Entries
+Port B2 (3) Bad Port Table:
+	No Entries
+
+Bad Port Table protection mode is set to protect:
+  The last operational member of each mirror
+
+
+CLI>2nd new
+
+
+Secondary event log:
+
+CLI>exit
+
+
+User Service Utility Key Assignments:
+
+'?': Show User Service Utility Key Assignments Menu
+'1': Show Vital Product Data
+'2': Show LUN Map
+'4': Configure Management Server Access
+'6': View/Change Interface Configuration
+'7': Start Command Line Interface mode
+'8': Disk/Fabric Performance Test
+'9': Clear SAN database
+'B': Reboot Router
+'H': Report overall system health
+'F': Reset to Factory Default
+'Q': Quit User Service Utility
+'Z': Coredump Menu
+
+HA-AP 1 > 
+Quit User Menu? (Y/N)
+Debug Session Terminated, Good Bye!
